@@ -103,7 +103,7 @@ main{
     font-size: 1.5em;
     color: #BCA387;
     border-bottom: 4px solid #BCA387;
-    width: 6.65em;
+    width: 5.75em;
     margin-bottom: 1em;
 }
 
@@ -147,11 +147,12 @@ input:checked + .lado:before {
 }
 
 .ambiente{
-    width: 25%;
+    width: 50%;
     height: 2em;
     display: flex;
     align-items: center;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .ambiente p{
@@ -163,7 +164,7 @@ input:checked + .lado:before {
 .volume{
     display: flex;
     color: #BCA387;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .barra{
@@ -185,15 +186,6 @@ input:checked + .lado:before {
     cursor: pointer;
 }
 
-.fundo{
-    padding: 0.2em;
-    background-color: #59544E;
-    cursor: pointer;
-    border-radius: 0.2em;
-}
 
-.volume b{
-    padding-top: 0.2em;
-    margin: 0 0.2em;
-}
+
 
