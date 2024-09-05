@@ -1,0 +1,7 @@
+Meu objetivo é criar um site de autoajuda para auxiliar na psicologia na Unimar. O Brasil possui uma alta taxa de depressão, com uma 
+prevalência de 5,8%, ocupando o 5º lugar no ranking mundial. Além disso, é o país com a maior taxa de ansiedade, com 9,3%, 
+liderando o ranking global.
+
+Por isso, meu projeto visa oferecer suporte a pessoas que enfrentam essas condições. O site incluirá frases motivacionais, recomendações 
+de livros e exercícios de autoajuda. Também terá uma página com contatos importantes para situações de crise, como o número do CVV 
+(Centro de Valorização da Vida), caso o usuário precise de ajuda imediata.
