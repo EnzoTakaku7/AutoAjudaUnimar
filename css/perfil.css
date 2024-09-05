@@ -91,6 +91,10 @@ header > .logo{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    background-image: url(../imgs/Camera.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .mid{

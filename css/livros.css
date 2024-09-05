@@ -73,7 +73,7 @@ header > .logo{
     width: 100%;
     height: 50em;
     background-size: cover;
-    background-image: url(/imgs/backgroundlivrosgrande.png);
+    background-image: url(../imgs/backgroundlivrosgrande.png);
     border-radius: 1em;
     font-size: 1.5em;
     display: flex;
@@ -97,6 +97,7 @@ header > .logo{
     width: 1.2em;
     height: 1.2em;
     margin-left: 1em;
+    cursor: pointer;
 }
 
 .pesquisa{
@@ -105,7 +106,7 @@ header > .logo{
     border-radius: 0.7em;
     background-color: #38342F;
     outline: 3px solid #BCA387;
-    background-image: url(/imgs/Search.png);
+    background-image: url(../imgs/Search.png);
     background-repeat: no-repeat;
     background-position: 98%;
     background-size: 10%;
@@ -149,7 +150,7 @@ header > .logo{
 }
 
 .img{
-   background-image: url(/imgs/imagepa.png);
+   background-image: url(../imgs/imagepa.png);
    background-size: 100% 100%;
    background-repeat: no-repeat;
    width: 3.5em;
@@ -161,11 +162,11 @@ header > .logo{
 }
 
 .cards .card:nth-child(2) .img{
-    background-image: url(/imgs/imagepp.png);
+    background-image: url(../imgs/imagepp.png);
 }
 
 .cards .card:nth-child(3) .img{
-    background-image: url(/imgs/imagema.png);
+    background-image: url(../imgs/imagema.png);
 }
 
 .cima{
@@ -179,8 +180,12 @@ header > .logo{
     margin-top: 4em;
 }
 
+.grande{
+    font-size: 0.85em;
+}
+
 .img2{
-    background-image: url(/imgs/imagecsi.png);
+    background-image: url(../imgs/imagecsi.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 3.5em;
@@ -192,10 +197,28 @@ header > .logo{
  }
 
  .cards .card:nth-child(2) .img2{
-    background-image: url(/imgs/imagecaip.png);
+    background-image: url(../imgs/imagecaip.png);
  }
 
  .cards .card:nth-child(3) .img2{
-    background-image: url(/imgs/imagecpa.png);
+    background-image: url(../imgs/imagecpa.png);
  }
 
+ .icons{
+    width: 90%;
+    display: flex;
+    justify-content: right;
+    gap: 0.6em;
+    margin-bottom: -2em;
+ }
+
+ .icons img{
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+ }
+
+ .textocard{
+    width: 100%;
+    height: 4.5em;
+ }

@@ -6,28 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/livros.css">
     
-    <title>Unimar - Autoajuda</title>
+    <title>Unimar - Livros</title>
 </head>
 <body>
     <header> 
-        <img src="imgs/Calmmind (1) 1.png" class="logo" alt="Calmmind">
+        <img src="../imgs/Calmmind (1) 1.png" class="logo" alt="Calmmind">
         
         <div class="logos">
 
         <a href="telefone.html" class="icones">
-        <img src="imgs/Phone.png"  alt="">
+        <img src="../imgs/Phone.png"  alt="">
         </a>
 
         <a href="home.html" class="icones"> 
-        <img src="imgs/Home Page.png"  alt="">
+        <img src="../imgs/Home Page.png"  alt="">
         </a>
 
         <a href="configurações.html" class="icones">
-        <img src="imgs/Settings.png"  alt="">
+        <img src="../imgs/Settings.png"  alt="">
         </a>
 
         <a href="perfil.html" class="icones">
-        <img src="imgs/User.png"  alt="">
+        <img src="../imgs/User.png"  alt="">
         </a>
         </div>
         
@@ -36,7 +36,7 @@
         <div class="principal">
             <div class="titulo">
                 <div class="mid">
-                <img src="/imgs/Filter.png" alt="">
+                <img src="../imgs/Filter.png" alt="">
                 <input type="text" class="pesquisa" >
                 <label for="text">
                 </label>
@@ -54,7 +54,13 @@
                         
                     </div>
                     <p>O Poder do Agora</p>
+                    <div class="textocard">
                     <p>Este livro é um guia para viver <br> o presente e superar a ansiedade <br> e a depressão através da consciência plena.</p>
+                    </div>
+                    <div class="icons">
+                        <img src="../imgs/Read.png" onclick="trocarimagem2()" id="imagem2" alt="">
+                        <img src="../imgs/Favorite.png" onclick="trocarimagem()" id="imagem" alt="">
+                    </div>
                 </div>
 
                 <div class="card">
@@ -62,17 +68,28 @@
                         
                     </div>
                     <p>O Pequeno Príncipe</p>
+                    <div class="textocard">
                     <p>Este conto poético aborda a <br> importância de ver o mundo com <br>  os olhos de uma criança e valorizar <br> o essencial na vida.</p>
+                    </div>
+                    <div class="icons">
+                        <img src="../imgs/Read.png" onclick="trocarimagem4()" id="imagem4" alt="">
+                        <img src="../imgs/Favorite.png" onclick="trocarimagem3()" id="imagem3" alt="">
+                    </div>
                 </div>
 
                 <div class="card">
                     <div class="img">
                         
                     </div>
-                    <div>
+                   
                     <p>A Mágica da Arrumação</p>
-                    </div>
+                    <div class="textocard">
                     <p>Marie Kondo oferece um método para organização, que pode <br> ajudar a reduzir o estresse e criar <br> um ambiente mais harmonioso.</p>
+                    </div>
+                    <div class="icons">
+                        <img src="../imgs/Read.png" onclick="trocarimagem6()" id="imagem6" alt="">
+                        <img src="../imgs/Favorite.png" onclick="trocarimagem5()" id="imagem5" alt="">
+                    </div>
                 </div>
                 </div>
 
@@ -83,15 +100,27 @@
                             
                         </div>
                         <p>A Coragem de Ser Imperfeito</p>
+                        <div class="textocard">
                         <p>Explora temas de vulnerabilidade <br> e autenticidade de uma maneira acessível e inspiradora.</p>
+                    </div>
+                        <div class="icons">
+                            <img src="../imgs/Read.png" onclick="trocarimagem8()" id="imagem8" alt="">
+                            <img src="../imgs/Favorite.png" onclick="trocarimagem7()" id="imagem7" alt="">
+                        </div>
                     </div>
     
                     <div class="card">
                         <div class="img2">
                             
                         </div>
-                        <p>Como Fazer Amigos e Influenciar Pessoas</p>
+                        <p class="grande">Como Fazer Amigos e Influenciar Pessoas</p>
+                        <div class="textocard">
                         <p>Um clássico sobre habilidades interpessoais e técnicas para construir relacionamentos <br> positivos e influentes.</p>
+                        </div>  
+                        <div class="icons">
+                            <img src="../imgs/Read.png" onclick="trocarimagem10()" id="imagem10" alt="">
+                            <img src="../imgs/Favorite.png" onclick="trocarimagem9()" id="imagem9" alt="">
+                        </div>
                     </div>
     
                     <div class="card">
@@ -101,7 +130,13 @@
                         <div>
                         <p>O Cavaleiro Preso na Armadura</p>
                         </div>
+                        <div class="textocard">
                         <p>Uma fábula sobre um cavaleiro que deve se libertar de sua armadura para descobrir seu verdadeiro <br> eu e encontrar a felicidade.</p>
+                        </div>
+                        <div class="icons">
+                            <img src="../imgs/Read.png" onclick="trocarimagem12()" id="imagem12" alt="">
+                            <img src="../imgs/Favorite.png" onclick="trocarimagem11()" id="imagem11" alt="">
+                        </div>
                     </div>
                     </div>
 
@@ -110,5 +145,8 @@
             
         </div>
     </main>
+
+    <script src="../js/script.js"></script>
+
 </body> 
 </html>
