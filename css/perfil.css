@@ -136,12 +136,14 @@ header > .logo{
     text-align: center;
     text-decoration: none;
     color: #38342F;
+    transition: 0.2s;
     
 }
 
 .card:hover{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.411);
     padding: 0.6em;
+    transition: 0.2s;
 }
 
 

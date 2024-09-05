@@ -1,11 +1,15 @@
+
+
 function trocarimagem() {
     const imgElement = document.getElementById('imagem');
     const currentSrc = imgElement.getAttribute('src');
 
     if (currentSrc === '../imgs/Favorite.png') {
         imgElement.setAttribute('src', '../imgs/Love.png');
+        
     } else {
         imgElement.setAttribute('src', '../imgs/Favorite.png');
+        
     }    
         }
 
@@ -139,5 +143,70 @@ function trocarimagem11() {
     }
 }
 
+function trocarimagem13() {
+    const imgElement = document.getElementById('imagem13');
+    const currentSrc = imgElement.getAttribute('src');
+
+    if (currentSrc === '../imgs/Broken Heart2.png') {
+        imgElement.setAttribute('src', '../imgs/Broken Heart.png');
+    } else {
+        imgElement.setAttribute('src', '../imgs/Broken Heart2.png');
+    }
+}
+
+function trocarimagem14() {
+    const imgElement = document.getElementById('imagem14');
+    const currentSrc = imgElement.getAttribute('src');
+
+    if (currentSrc === '../imgs/Broken Heart2.png') {
+        imgElement.setAttribute('src', '../imgs/Broken Heart.png');
+    } else {
+        imgElement.setAttribute('src', '../imgs/Broken Heart2.png');
+    }
+}
+
+function trocarimagem15() {
+    const imgElement = document.getElementById('imagem15');
+    const currentSrc = imgElement.getAttribute('src');
+
+    if (currentSrc === '../imgs/Broken Heart2.png') {
+        imgElement.setAttribute('src', '../imgs/Broken Heart.png');
+    } else {
+        imgElement.setAttribute('src', '../imgs/Broken Heart2.png');
+    }
+}
+
+function trocarimagem16() {
+    const imgElement = document.getElementById('imagem16');
+    const currentSrc = imgElement.getAttribute('src');
+
+    if (currentSrc === '../imgs/Broken Heart2.png') {
+        imgElement.setAttribute('src', '../imgs/Broken Heart.png');
+    } else {
+        imgElement.setAttribute('src', '../imgs/Broken Heart2.png');
+    }
+}
+
+function trocarimagem17() {
+    const imgElement = document.getElementById('imagem17');
+    const currentSrc = imgElement.getAttribute('src');
+
+    if (currentSrc === '../imgs/Broken Heart2.png') {
+        imgElement.setAttribute('src', '../imgs/Broken Heart.png');
+    } else {
+        imgElement.setAttribute('src', '../imgs/Broken Heart2.png');
+    }
+}
+
+function trocarimagem18() {
+    const imgElement = document.getElementById('imagem18');
+    const currentSrc = imgElement.getAttribute('src');
+
+    if (currentSrc === '../imgs/Broken Heart2.png') {
+        imgElement.setAttribute('src', '../imgs/Broken Heart.png');
+    } else {
+        imgElement.setAttribute('src', '../imgs/Broken Heart2.png');
+    }
+}
 
 

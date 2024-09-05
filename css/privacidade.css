@@ -72,15 +72,13 @@ main{
     font-size: 1.8em;
     flex-direction: column;
     text-align: center;
+    gap: 1.5em;
 }
 
 .div-esq a{
     text-decoration: none;
     color: #BCA387;
     width: 12em;
-    margin-bottom: 1.5em;
-    display: flex;
-    flex-direction: column;
 }
 
 .div-esq a:nth-child(3){
@@ -92,18 +90,18 @@ main{
 
 .div-dir{
     width: 70%;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     font-size: 1.8em;
     flex-direction: column;
 }
-
 .titulo{
     font-size: 1.5em;
     color: #BCA387;
     border-bottom: 4px solid #BCA387;
     width: 5.35em;
+    margin-top: 1.5em;
 }
 
 .trocar {
@@ -146,7 +144,6 @@ input:checked + .lado:before {
 }
 
 .ambiente{
-    width: 25%;
     height: 2em;
     display: flex;
     align-items: center;
@@ -165,10 +162,12 @@ input:checked + .lado:before {
     padding: 0.5em;
     background-color: #BCA387;
     border-radius: 0.5em;
+    transition: 0.2s;
 }
 
 .links:hover{
     background-color: #98846e;
+    transition: 0.2s;
 }
 
 .volume{

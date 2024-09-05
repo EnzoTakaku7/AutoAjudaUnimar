@@ -72,15 +72,14 @@ main{
     font-size: 1.8em;
     flex-direction: column;
     text-align: center;
+    gap: 1.5em;
 }
 
 .div-esq a{
     text-decoration: none;
     color: #BCA387;
     width: 12em;
-    margin-bottom: 1.5em;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .div-esq a:nth-child(1){
@@ -89,15 +88,13 @@ main{
     background-color: #BCA387;
     border-radius: 0.7em;
 }
-
 .div-dir{
     width: 70%;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     font-size: 1.8em;
     flex-direction: column;
-   margin-top: 2.5em;
 }
 
 .titulo{
@@ -106,6 +103,7 @@ main{
     border-bottom: 4px solid #BCA387;
     width: 2.65em;
     margin-bottom: 1em;
+    margin-top: 2.9em;
 }
 
 .trocar {
@@ -148,7 +146,6 @@ input:checked + .lado:before {
 }
 
 .ambiente{
-    width: 25%;
     height: 2em;
     display: flex;
     align-items: center;
