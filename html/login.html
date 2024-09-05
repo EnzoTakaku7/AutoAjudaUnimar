@@ -8,26 +8,30 @@
 </head>
 <body>
     <main>
-        
         <div class="divprincipal">
 
             <div class="titulo"> 
                 <p>Login</p>
-                </div>
+            </div>
 
             <div class="form">
-            <label for="User">Usuário</label>
-            <input type="text">
-            
-            <label for="password">Senha</label>
-            <input type="password" class="inp">
-            <a href="esqueci">Esqueci minha senha</a>
-            <p> <span class="cor">Não tem uma conta?</span> <a href="cadastro.html">Cadastre-se</a></p>
-            <div class="mid">
-                <div class="btn"> <a href="home.html" class="btn">Confirmar</a></div>
-            </div>
+                <label for="User">Usuário</label>
+                <input type="text" id="login-nome">
+
+                <label for="password">Senha</label>
+                <input type="password" class="inp" id="login-senha"> 
+
+                <a href="esqueci">Esqueci minha senha</a>
+
+                <p><span class="cor">Não tem uma conta?</span> <a href="cadastro.html">Cadastre-se</a></p>
+
+                <div class="mid">
+                    <button class="btn" onclick="login()">Confirmar</button>
+                </div>
+
             </div>
         </div>
     </main>
+    <script src="../js/script.js"></script>
 </body>
 </html>

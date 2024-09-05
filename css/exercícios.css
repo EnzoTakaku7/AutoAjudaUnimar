@@ -199,3 +199,16 @@ header > .logo{
     font-size: 0.8em;
  }
 
+
+ .card.vermelho-outline {
+    outline: 4px solid #d15141;
+}
+
+.card.verdin-outline {
+    outline: 4px solid #71cc6e;
+}
+
+.desativar {
+    pointer-events: none;
+    opacity: 0.7; 
+}

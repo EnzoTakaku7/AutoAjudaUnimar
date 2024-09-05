@@ -8,32 +8,32 @@
 </head>
 <body>
     <main>
-        
         <div class="divprincipal">
 
             <div class="titulo"> 
                 <p>Cadastro</p>
-                </div>
+            </div>
 
             <div class="form">
-            <label for="User">Usuário</label>
-            <input type="text">
+                <label for="User">Usuário</label>
+                <input type="text" id="cadastro-nome">
 
-            <label for="User">E-mail</label>
-            <input type="email">
-            
-            <label for="password">Senha</label>
-            <input type="password">
+                <label for="User">E-mail</label>
+                <input type="email" id="cadastro-email"> 
 
-            <label for="password">Confirmar senha</label>
-            <input type="password">
+                <label for="password">Senha</label>
+                <input type="password" id="cadastro-senha"> 
 
-            <p> <span class="cor">Já tem uma conta?</span> <a href="login.html">Entrar</a></p>
-            <div class="mid">
-            <div class="btn"> <a href="login.html" class="btn">Confirmar</a></div>
-            </div>
+                <label for="password">Confirmar senha</label>
+                <input type="password" id="cadastro-confirmarsenha"> 
+
+                <p><span class="cor">Já tem uma conta?</span> <a href="login.html">Entrar</a></p>
+                <div class="mid">
+                    <button class="btn" onclick="cadastrarUsuario()">Confirmar</button> 
+                </div>
             </div>
         </div>
     </main>
+    <script src="../js/script.js"></script>
 </body>
 </html>
