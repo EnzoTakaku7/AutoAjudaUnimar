@@ -456,15 +456,22 @@ function trocarimagem11() {
 
 
 
-
-
-
-
 function cadastrarUsuario() {
     const username = document.getElementById('cadastro-nome').value;
     const email = document.getElementById('cadastro-email').value;
     const password = document.getElementById('cadastro-senha').value;
     const confirmPassword = document.getElementById('cadastro-confirmarsenha').value;
+
+    // Verificar o comprimento do username e da senha
+    if (username.length < 4) {
+        alert("O nome de usuário deve ter pelo menos 4 caracteres.");
+        return;
+    }
+
+    if (password.length < 4) {
+        alert("A senha deve ter pelo menos 4 caracteres.");
+        return;
+    }
 
     if (password !== confirmPassword) {
         alert("As senhas não coincidem");
@@ -489,22 +496,4 @@ function cadastrarUsuario() {
     localStorage.setItem('usuarios', JSON.stringify(usuarios));
     alert("Usuário cadastrado");
     window.location.href = "login.html";
-}
-
-function login() {
-    const username = document.getElementById('login-nome').value;
-    const password = document.getElementById('login-senha').value;
-
-    let usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
-
-    const usuarioEncontrado = usuarios.find(
-        (user) => user.username === username && user.password === password
-    );
-
-    if (usuarioEncontrado) {
-        alert("Login aprovado");
-        window.location.href = "home.html"; 
-    } else {
-        alert("Usuário ou senha incorretos");
-    }
 }
