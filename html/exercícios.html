@@ -68,9 +68,14 @@
                     </i></p>
                     </div>
                     <div class="icons">
+                        <div class="tooltip">
                         <img src="../imgs/Broken Heart2.png" onclick="trocarimagem13()" id="imagem13" alt="">
-
+                        <span class="tooltiptexto">Não gostei</span>
+                        </div>
+                        <div class="tooltip">
                         <img src="../imgs/Favorite.png" onclick="trocarimagem()" id="imagem" alt="">
+                        <span class="tooltiptexto">Gostei</span>
+                    </div>
                     </div>
                 </div>
 
@@ -89,8 +94,14 @@
                     </i></p>
                     </div>
                     <div class="icons">
+                        <div class="tooltip">
                         <img src="../imgs/Broken Heart2.png" onclick="trocarimagem14()" id="imagem14" alt="">
+                        <span class="tooltiptexto">Não gostei</span>
+                        </div>
+                        <div class="tooltip">
                         <img src="../imgs/Favorite.png" onclick="trocarimagem3()" id="imagem3" alt="">
+                        <span class="tooltiptexto">Gostei</span>
+                        </div>
                     </div>
                 </div>
 
@@ -110,8 +121,14 @@
                     </i></p>
                     </div>
                     <div class="icons">
+                        <div class="tooltip">
                         <img src="../imgs/Broken Heart2.png" onclick="trocarimagem15()" id="imagem15" alt="">
+                        <span class="tooltiptexto">Não gostei</span>
+                        </div>
+                        <div class="tooltip">
                         <img src="../imgs/Favorite.png" onclick="trocarimagem5()" id="imagem5" alt="">
+                        <span class="tooltiptexto">Gostei</span>
+                        </div>
                     </div>
                 
                 </div>
@@ -134,8 +151,14 @@
                         </i></p>
                         </div>
                         <div class="icons">
+                            <div class="tooltip">
                             <img src="../imgs/Broken Heart2.png" onclick="trocarimagem16()" id="imagem16" alt="">
+                            <span class="tooltiptexto">Não gostei</span>
+                            </div>
+                            <div class="tooltip">
                             <img src="../imgs/Favorite.png" onclick="trocarimagem7()" id="imagem7" alt="">
+                            <span class="tooltiptexto">Gostei</span>
+                            </div>
                         </div>
                     </div>
                     
@@ -156,8 +179,14 @@
                             </i></p>
                             </div>
                             <div class="icons">
+                                <div class="tooltip">
                                 <img src="../imgs/Broken Heart2.png" onclick="trocarimagem17()" id="imagem17" alt="">
+                                <span class="tooltiptexto">Não gostei</span>
+                                </div>
+                                <div class="tooltip">
                                 <img src="../imgs/Favorite.png" onclick="trocarimagem9()" id="imagem9" alt="">
+                                <span class="tooltiptexto">Gostei</span>
+                                </div>
                             </div>
                         </div>
                     
@@ -179,8 +208,14 @@
                                 </i></p>
                                 </div>
                                 <div class="icons">
+                                    <div class="tooltip">
                                     <img src="../imgs/Broken Heart2.png" onclick="trocarimagem18()" id="imagem18" alt="">
+                                    <span class="tooltiptexto">Não gostei</span>
+                                    </div>
+                                    <div class="tooltip">
                                     <img src="../imgs/Favorite.png" onclick="trocarimagem11()" id="imagem11" alt="">
+                                    <span class="tooltiptexto">Gostei</span>
+                                    </div>
                                 </div>
                             </div>
                     
@@ -193,23 +228,9 @@
             
         </div>
     </main>
-    <script>
-        window.addEventListener('load', function() {
-           var audio = document.getElementById('background-music');
-
-           // Define o volume
-       
-
-           // Atualiza o estado do áudio com base no localStorage
-           if (localStorage.getItem('musicEnabled') === 'true') {
-               audio.volume = 0;
-               } else {
-                   audio.volume = 0.1;
-           }
-       });
+    <script src="../js/musica2.js">
    </script>
-
-    <script src="../js/exercícios.js"></script>
-
+    <script src="../js/exercícios.js">
+    </script>
 </body> 
 </html>

@@ -1,0 +1,22 @@
+1. O projeto começa na página index.html, localizada na pasta html.
+
+2. Para uma melhor visualização em notebooks, recomenda-se ajustar o zoom do navegador para 80%.
+
+3. Assim que o projeto é iniciado, a página index.html apresenta um cabeçalho com opções de cadastro e login funcionais.
+
+4. Após o login, o usuário é redirecionado para a página home.html. Nela, cada card inicial possui a palavra "ver", que leva às páginas 
+principais do projeto. Ao acessar essas páginas, uma música suave será tocada. O cabeçalho também inclui ícones de contatos, home, 
+configurações e perfil.
+
+5. O primeiro ícone, "Contatos", apresenta contatos importantes para situações em que o usuário esteja enfrentando uma crise de ansiedade, 
+depressão ou outros problemas.
+
+6. O segundo ícone, "Home", leva à página principal, onde estão disponíveis frases motivacionais, livros e exercícios de autoajuda. Há 
+também uma contagem de itens marcados como "Gostei". Mais abaixo, são exibidos cards com informações resumidas sobre o conteúdo do site.
+
+7. O terceiro ícone, "Configurações", oferece opções de ajustes de áudio, acessibilidade, privacidade e notificações. A única opção 
+funcional, além das mudanças visuais, é a configuração de áudio. Quando a opção "Música" é desativada, a música de fundo nas páginas de 
+frases, exercícios e livros será interrompida.
+
+8. O quarto ícone, "Perfil", seria para que o usuário personalize sua foto e altere o e-mail, senha e nome de usuário. Também é possível 
+visualizar apenas os exercícios, livros e frases que foram marcados como "Gostei".

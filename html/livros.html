@@ -62,8 +62,14 @@
                     <p>Este livro é um guia para viver <br> o presente e superar a ansiedade <br> e a depressão através da consciência plena.</p>
                     </div>
                     <div class="icons">
+                        <div class="tooltip">
                         <img src="../imgs/Read.png" onclick="trocarimagem2()" id="imagem2" alt="">
+                        <span class="tooltiptexto">Livro lido</span>
+                        </div>
+                        <div class="tooltip">
                         <img src="../imgs/Favorite.png" onclick="trocarimagem()" id="imagem" alt="">
+                        <span class="tooltiptexto">Gostei</span>
+                        </div>
                     </div>
                 </div>
 
@@ -76,8 +82,14 @@
                     <p>Este conto poético aborda a <br> importância de ver o mundo com <br>  os olhos de uma criança e valorizar <br> o essencial na vida.</p>
                     </div>
                     <div class="icons">
+                        <div class="tooltip">
                         <img src="../imgs/Read.png" onclick="trocarimagem4()" id="imagem4" alt="">
-                        <img src="../imgs/Favorite.png" onclick="trocarimagem3()" id="imagem3" alt="">
+                        <span class="tooltiptexto">Livro lido</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="../imgs/Favorite.png" onclick="trocarimagem3()" id="imagem3" alt="">
+                            <span class="tooltiptexto">Gostei</span>
+                            </div>
                     </div>
                 </div>
 
@@ -91,8 +103,14 @@
                     <p>Marie Kondo oferece um método para organização, que pode <br> ajudar a reduzir o estresse e criar <br> um ambiente mais harmonioso.</p>
                     </div>
                     <div class="icons">
-                        <img src="../imgs/Read.png" onclick="trocarimagem6()" id="imagem6" alt="">
-                        <img src="../imgs/Favorite.png" onclick="trocarimagem5()" id="imagem5" alt="">
+                        <div class="tooltip">
+                            <img src="../imgs/Read.png" onclick="trocarimagem6()" id="imagem6" alt="">
+                            <span class="tooltiptexto">Livro lido</span>
+                            </div>
+                        <div class="tooltip">
+                            <img src="../imgs/Favorite.png" onclick="trocarimagem5()" id="imagem5" alt="">
+                            <span class="tooltiptexto">Gostei</span>
+                            </div>
                     </div>
                 </div>
                 </div>
@@ -108,8 +126,14 @@
                         <p>Explora temas de vulnerabilidade <br> e autenticidade de uma maneira acessível e inspiradora.</p>
                     </div>
                         <div class="icons">
-                            <img src="../imgs/Read.png" onclick="trocarimagem8()" id="imagem8" alt="">
-                            <img src="../imgs/Favorite.png" onclick="trocarimagem7()" id="imagem7" alt="">
+                            <div class="tooltip">
+                                <img src="../imgs/Read.png" onclick="trocarimagem8()" id="imagem8" alt="">
+                                <span class="tooltiptexto">Livro lido</span>
+                                </div>
+                            <div class="tooltip">
+                                <img src="../imgs/Favorite.png" onclick="trocarimagem7()" id="imagem7" alt="">
+                                <span class="tooltiptexto">Gostei</span>
+                                </div>
                         </div>
                     </div>
     
@@ -122,8 +146,14 @@
                         <p>Um clássico sobre habilidades interpessoais e técnicas para construir relacionamentos <br> positivos e influentes.</p>
                         </div>  
                         <div class="icons">
-                            <img src="../imgs/Read.png" onclick="trocarimagem10()" id="imagem10" alt="">
-                            <img src="../imgs/Favorite.png" onclick="trocarimagem9()" id="imagem9" alt="">
+                            <div class="tooltip">
+                                <img src="../imgs/Read.png" onclick="trocarimagem10()" id="imagem10" alt="">
+                                <span class="tooltiptexto">Livro lido</span>
+                                </div>
+                            <div class="tooltip">
+                                <img src="../imgs/Favorite.png" onclick="trocarimagem9()" id="imagem9" alt="">
+                                <span class="tooltiptexto">Gostei</span>
+                                </div>
                         </div>
                     </div>
     
@@ -138,34 +168,24 @@
                         <p>Uma fábula sobre um cavaleiro que deve se libertar de sua armadura para descobrir seu verdadeiro <br> eu e encontrar a felicidade.</p>
                         </div>
                         <div class="icons">
-                            <img src="../imgs/Read.png" onclick="trocarimagem12()" id="imagem12" alt="">
-                            <img src="../imgs/Favorite.png" onclick="trocarimagem11()" id="imagem11" alt="">
+                            <div class="tooltip">
+                                <img src="../imgs/Read.png" onclick="trocarimagem12()" id="imagem12" alt="">
+                                <span class="tooltiptexto">Livro lido</span>
+                                </div>
+                            <div class="tooltip">
+                                <img src="../imgs/Favorite.png" onclick="trocarimagem11()" id="imagem11" alt="">
+                                <span class="tooltiptexto">Gostei</span>
+                                </div>
                         </div>
                     </div>
-                    </div>
-
+                </div>
             </div>
         </div>
-            
         </div>
     </main>
-    <script>
-         window.addEventListener('load', function() {
-            var audio = document.getElementById('background-music');
-
-            // Define o volume
-        
-
-            // Atualiza o estado do áudio com base no localStorage
-            if (localStorage.getItem('musicEnabled') === 'true') {
-                audio.volume = 0;
-                } else {
-                    audio.volume = 0.1;
-            }
-        });
+    <script src="../js/musica2.js">
     </script>
-
-    <script src="../js/livros.js"></script>
-
+    <script src="../js/livros.js">
+    </script>
 </body> 
 </html>
